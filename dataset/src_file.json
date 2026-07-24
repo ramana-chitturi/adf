@@ -1,16 +1,11 @@
 {
 	"name": "src_file",
 	"properties": {
-		"linkedServiceName": {
-			"referenceName": "tb_storage",
-			"type": "LinkedServiceReference"
-		},
 		"annotations": [],
 		"type": "DelimitedText",
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"fileName": "Emp.csv",
 				"container": "input"
 			},
 			"columnDelimiter": ",",
