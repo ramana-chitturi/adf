@@ -1,10 +1,6 @@
 {
 	"name": "json_target",
 	"properties": {
-		"linkedServiceName": {
-			"referenceName": "load_json",
-			"type": "LinkedServiceReference"
-		},
 		"annotations": [],
 		"type": "Json",
 		"typeProperties": {
