@@ -19,7 +19,8 @@
 						"type": "DelimitedTextSource",
 						"storeSettings": {
 							"type": "AzureBlobStorageReadSettings",
-							"fileListPath": "input/Emp.csv",
+							"recursive": true,
+							"wildcardFileName": "*.csv",
 							"enablePartitionDiscovery": false
 						},
 						"formatSettings": {
@@ -40,7 +41,7 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "src_file",
+						"referenceName": "DelimitedText1",
 						"type": "DatasetReference"
 					}
 				],
