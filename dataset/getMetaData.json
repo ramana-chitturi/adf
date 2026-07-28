@@ -1,0 +1,31 @@
+{
+	"name": "getMetaData",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "src_csv",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "input"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "DEPT",
+				"type": "String"
+			},
+			{
+				"name": "DEPTNAME",
+				"type": "String"
+			}
+		]
+	}
+}

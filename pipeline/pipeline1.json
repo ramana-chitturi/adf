@@ -13,14 +13,13 @@
 					"secureOutput": false,
 					"secureInput": false
 				},
+				"userProperties": [],
 				"typeProperties": {
 					"dataset": {
-						"referenceName": "DelimitedText1",
+						"referenceName": "getMetaData",
 						"type": "DatasetReference"
 					},
-					"fieldList": [
-						"childItems"
-					],
+					"fieldList": [],
 					"storeSettings": {
 						"type": "AzureBlobStorageReadSettings",
 						"enablePartitionDiscovery": false
@@ -59,6 +58,7 @@
 								"secureOutput": false,
 								"secureInput": false
 							},
+							"userProperties": [],
 							"typeProperties": {
 								"source": {
 									"type": "DelimitedTextSource",
