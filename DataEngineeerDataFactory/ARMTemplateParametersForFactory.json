@@ -4,6 +4,21 @@
 	"parameters": {
 		"factoryName": {
 			"value": "DataEngineeerDataFactory"
+		},
+		"AzureSqlDatabase1_password": {
+			"value": ""
+		},
+		"src_csv_connectionString": {
+			"value": ""
+		},
+		"AzureSqlDatabase1_properties_typeProperties_server": {
+			"value": "deserver08.database.windows.net"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_database": {
+			"value": "test"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_userName": {
+			"value": "nani"
 		}
 	}
 }
