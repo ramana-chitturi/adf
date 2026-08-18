@@ -19,10 +19,18 @@
 						"referenceName": "Binary1",
 						"type": "DatasetReference"
 					},
+					"logStorageSettings": {
+						"linkedServiceName": {
+							"referenceName": "LS_deletefiles",
+							"type": "LinkedServiceReference"
+						},
+						"path": "log"
+					},
 					"enableLogging": true,
 					"storeSettings": {
 						"type": "AzureBlobStorageReadSettings",
 						"recursive": true,
+						"wildcardFileName": "*.txt",
 						"enablePartitionDiscovery": false
 					}
 				}
