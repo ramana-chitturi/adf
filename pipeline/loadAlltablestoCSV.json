@@ -22,7 +22,7 @@
 						"partitionOption": "None"
 					},
 					"dataset": {
-						"referenceName": "GetAllTables",
+						"referenceName": "Tables",
 						"type": "DatasetReference"
 					},
 					"firstRowOnly": false
