@@ -8,6 +8,10 @@
 				"dependsOn": [],
 				"userProperties": [],
 				"typeProperties": {
+					"items": {
+						"value": "@toarrayarray(pipeline().parameters.FileName)",
+						"type": "Expression"
+					},
 					"isSequential": true,
 					"activities": [
 						{
@@ -72,7 +76,7 @@
 		],
 		"parameters": {
 			"FileName": {
-				"type": "string",
+				"type": "array",
 				"defaultValue": "({\"SheetName:Emp\"},{\"SheetName:Project\"},{\"SheetName:Orders\"})"
 			}
 		},
