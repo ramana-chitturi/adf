@@ -84,7 +84,17 @@
 		"parameters": {
 			"FileName": {
 				"type": "array",
-				"defaultValue": "[{\"SheetName:Emp\"},{\"SheetName:Project\"},{\"SheetName:Orders\"}]"
+				"defaultValue": [
+					{
+						"SheetName": "Emp"
+					},
+					{
+						"SheetName": "Project"
+					},
+					{
+						"SheetName": "Orders"
+					}
+				]
 			}
 		},
 		"annotations": []
