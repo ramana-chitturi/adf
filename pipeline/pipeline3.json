@@ -18,7 +18,7 @@
 					"source": {
 						"type": "AzureSqlSource",
 						"sqlReaderQuery": {
-							"value": "@concat('select * from emp where DeptID=pipeline().parameters.DeptID')",
+							"value": "@select * from emp where DeptID=pipeline().parameters.DeptID",
 							"type": "Expression"
 						},
 						"queryTimeout": "02:00:00",
