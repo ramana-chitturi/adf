@@ -69,7 +69,7 @@
 		"parameters": {
 			"pfile": {
 				"type": "string",
-				"defaultValue": "Customer"
+				"defaultValue": "dept"
 			}
 		},
 		"annotations": []
