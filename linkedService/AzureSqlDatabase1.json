@@ -6,12 +6,12 @@
 		"type": "AzureSqlDatabase",
 		"typeProperties": {
 			"server": "deserver08.database.windows.net",
-			"database": "test",
+			"database": "DEDatabase",
 			"encrypt": "mandatory",
 			"trustServerCertificate": false,
 			"authenticationType": "SQL",
 			"userName": "nani",
-			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDU0ODE4ODNBLTQ2QUEtNDgzMS1CRjlDLUNCNDU0MkMzMjk3MF8xYjJlNjcyMS03YWJlLTQ5Y2EtOWVjNS1iNmVhNmNjN2Q1NTMiDQp9"
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDU0ODE4ODNBLTQ2QUEtNDgzMS1CRjlDLUNCNDU0MkMzMjk3MF8zMTVlZTAyZi1lZWZjLTRiNWUtYTBhYi0zMGU2MTY2Yzg4ZTYiDQp9"
 		}
 	}
 }
