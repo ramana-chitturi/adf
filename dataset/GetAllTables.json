@@ -14,7 +14,7 @@
 		"type": "AzureSqlTable",
 		"schema": [],
 		"typeProperties": {
-			"schema": "dbo",
+			"schema": "",
 			"table": {
 				"value": "@dataset().TableName",
 				"type": "Expression"
