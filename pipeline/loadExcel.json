@@ -58,7 +58,7 @@
 									"type": "DatasetReference",
 									"parameters": {
 										"SheetName": {
-											"value": "@item().FileName",
+											"value": "@item().SheetName",
 											"type": "Expression"
 										}
 									}
