@@ -1,6 +1,31 @@
 {
 	"name": "pl_switch",
 	"properties": {
+		"activities": [
+			{
+				"name": "Switch1",
+				"type": "Switch",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"on": {
+						"value": "@pipeline().parameters.pfile",
+						"type": "Expression"
+					},
+					"cases": [
+						{
+							"value": "Case1"
+						}
+					]
+				}
+			}
+		],
+		"parameters": {
+			"pfile": {
+				"type": "string",
+				"defaultValue": "Customer"
+			}
+		},
 		"annotations": []
 	}
 }
