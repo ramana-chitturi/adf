@@ -36,7 +36,8 @@
 		],
 		"parameters": {
 			"DeptID": {
-				"type": "string"
+				"type": "string",
+				"defaultValue": "10"
 			}
 		},
 		"annotations": []
