@@ -1,0 +1,12 @@
+{
+	"name": "GetAllTables",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "GetAllTablesLS",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": []
+	}
+}
